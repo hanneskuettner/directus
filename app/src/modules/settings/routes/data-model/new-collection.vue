@@ -161,7 +161,7 @@ const defaultSystemFields = {
 		inputDisabled: false,
 		name: 'date_created',
 		label: 'created_on',
-		icon: 'access_time',
+		icon: 'schedule',
 	},
 	userCreated: {
 		enabled: false,
@@ -175,7 +175,7 @@ const defaultSystemFields = {
 		inputDisabled: false,
 		name: 'date_updated',
 		label: 'updated_on',
-		icon: 'access_time',
+		icon: 'schedule',
 	},
 	userUpdated: {
 		enabled: false,

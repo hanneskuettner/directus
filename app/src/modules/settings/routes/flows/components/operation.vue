@@ -42,7 +42,7 @@
 					class="hint resolve-hint"
 				>
 					<div x-small icon rounded class="button-hint" @pointerdown.stop="pointerdown('resolve')">
-						<v-icon v-tooltip="t('operation_handle_resolve')" name="add_circle_outline" />
+						<v-icon v-tooltip="t('operation_handle_resolve')" name="add_circle" />
 					</div>
 				</div>
 			</transition>
@@ -62,7 +62,7 @@
 					class="hint reject-hint"
 				>
 					<div x-small icon rounded class="button-hint" @pointerdown.stop="pointerdown('reject')">
-						<v-icon v-tooltip="t('operation_handle_reject')" name="add_circle_outline" />
+						<v-icon v-tooltip="t('operation_handle_reject')" name="add_circle" />
 					</div>
 				</div>
 			</transition>

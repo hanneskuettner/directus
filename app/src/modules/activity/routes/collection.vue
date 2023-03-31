@@ -14,7 +14,7 @@
 		<private-view :title="t('activity_feed')">
 			<template #title-outer:prepend>
 				<v-button class="header-icon" rounded disabled icon secondary>
-					<v-icon name="access_time" />
+					<v-icon name="schedule" />
 				</v-button>
 			</template>
 
@@ -38,7 +38,7 @@
 				</template>
 
 				<template #no-items>
-					<v-info :title="t('item_count', 0)" icon="access_time" center>
+					<v-info :title="t('item_count', 0)" icon="schedule" center>
 						{{ t('no_items_copy') }}
 					</v-info>
 				</template>

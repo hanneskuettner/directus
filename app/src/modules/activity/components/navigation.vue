@@ -2,7 +2,7 @@
 	<v-list nav>
 		<v-list-item clickable :active="!filterField" @click="clearNavFilter">
 			<v-list-item-icon>
-				<v-icon name="access_time" />
+				<v-icon name="schedule" />
 			</v-list-item-icon>
 			<v-list-item-content>
 				<v-text-overflow :text="t('all_activity')" />
