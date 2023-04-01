@@ -9,7 +9,7 @@ export default defineDisplay({
 	id: 'datetime',
 	name: '$t:displays.datetime.datetime',
 	description: '$t:displays.datetime.description',
-	icon: 'query_builder',
+	icon: 'schedule',
 	component: DisplayDateTime,
 	handler: (value, options, { field }) => {
 		if (!value) return value;
