@@ -74,7 +74,7 @@
 	color: var(--foreground-normal);
 	font-size: 24px;
 	font-family: 'Material Icons';
-	content: 'insert_link';
+	content: 'link';
 	font-feature-settings: 'liga';
 }
 

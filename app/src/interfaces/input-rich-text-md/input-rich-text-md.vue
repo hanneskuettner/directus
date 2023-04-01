@@ -99,7 +99,7 @@
 					icon
 					@click="edit('link')"
 				>
-					<v-icon name="insert_link" />
+					<v-icon name="link" />
 				</v-button>
 
 				<v-menu v-if="toolbar?.includes('table')" show-arrow :close-on-content-click="false">
