@@ -24,7 +24,7 @@ export default defineOperationApp({
 				width: 'half',
 				interface: 'tags',
 				options: {
-					iconRight: 'people_alt',
+					iconRight: 'group',
 					placeholder: '$t:operations.notification.recipient_placeholder',
 				},
 				note: '$t:operations.notification.recipient_note',

@@ -20,7 +20,7 @@
 
 			<template #title-outer:prepend>
 				<v-button class="header-icon" rounded disabled icon secondary>
-					<v-icon name="people_alt" />
+					<v-icon name="group" />
 				</v-button>
 			</template>
 
@@ -102,7 +102,7 @@
 
 			<component :is="`layout-${layout}`" class="layout" v-bind="layoutState">
 				<template #no-results>
-					<v-info v-if="!filter && !search" :title="t('user_count', 0)" icon="people_alt" center>
+					<v-info v-if="!filter && !search" :title="t('user_count', 0)" icon="group" center>
 						{{ t('no_users_copy') }}
 
 						<template v-if="canInviteUsers" #append>
@@ -122,7 +122,7 @@
 				</template>
 
 				<template #no-items>
-					<v-info :title="t('user_count', 0)" icon="people_alt" center>
+					<v-info :title="t('user_count', 0)" icon="group" center>
 						{{ t('no_users_copy') }}
 
 						<template v-if="canInviteUsers" #append>

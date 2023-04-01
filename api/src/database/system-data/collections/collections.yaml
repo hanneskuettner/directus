@@ -54,7 +54,7 @@ data:
     archive_field: status
     archive_value: archived
     unarchive_value: draft
-    icon: people_alt
+    icon: group
     note: $t:directus_collection.directus_users
     display_template: '{{ first_name }} {{ last_name }}'
   - collection: directus_webhooks
