@@ -5,7 +5,7 @@
 		</template>
 
 		<div v-if="!currentDashboard" class="not-found">
-			<v-info :title="t('page_not_found')" icon="not_interested">
+			<v-info :title="t('page_not_found')" icon="block">
 				{{ t('page_not_found_body') }}
 			</v-info>
 		</div>
