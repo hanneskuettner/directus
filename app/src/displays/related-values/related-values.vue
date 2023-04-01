@@ -25,7 +25,7 @@
 					/>
 				</v-list-item-content>
 				<v-list-item-icon>
-					<router-link :to="getLinkForItem(item)"><v-icon name="launch" small /></router-link>
+					<router-link :to="getLinkForItem(item)"><v-icon name="open_in_new" small /></router-link>
 				</v-list-item-icon>
 			</v-list-item>
 		</v-list>

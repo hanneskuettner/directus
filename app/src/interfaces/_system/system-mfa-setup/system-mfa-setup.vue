@@ -4,7 +4,7 @@
 			{{ tfaEnabled ? t('enabled') : t('disabled') }}
 			<div class="spacer" />
 			<template #append>
-				<v-icon name="launch" class="checkbox-icon" :class="{ enabled: tfaEnabled }" />
+				<v-icon name="open_in_new" class="checkbox-icon" :class="{ enabled: tfaEnabled }" />
 			</template>
 		</v-checkbox>
 

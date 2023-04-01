@@ -69,7 +69,7 @@
 						class="item-link"
 						:class="{ disabled: item.$type === 'created' }"
 					>
-						<v-icon name="launch" />
+						<v-icon name="open_in_new" />
 					</router-link>
 
 					<v-icon
@@ -128,7 +128,7 @@
 								:class="{ disabled: element.$type === 'created' }"
 								@click.stop
 							>
-								<v-icon name="launch" />
+								<v-icon name="open_in_new" />
 							</router-link>
 							<v-icon
 								v-if="!disabled && selectAllowed"

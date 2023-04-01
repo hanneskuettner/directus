@@ -48,7 +48,7 @@
 
 							<v-list>
 								<v-list-item clickable :href="getAssetUrl(getFilename(element))">
-									<v-list-item-icon><v-icon name="launch" /></v-list-item-icon>
+									<v-list-item-icon><v-icon name="open_in_new" /></v-list-item-icon>
 									<v-list-item-content>{{ t('open_file_in_tab') }}</v-list-item-content>
 								</v-list-item>
 								<v-list-item

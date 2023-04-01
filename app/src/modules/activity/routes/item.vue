@@ -39,7 +39,7 @@
 
 		<template #actions>
 			<v-button v-if="openItemLink" v-tooltip.bottom="t('open')" :to="openItemLink" icon rounded>
-				<v-icon name="launch" />
+				<v-icon name="open_in_new" />
 			</v-button>
 		</template>
 	</v-drawer>

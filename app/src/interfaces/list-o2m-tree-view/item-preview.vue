@@ -9,7 +9,7 @@
 		<render-template :collection="collection" :template="template" :item="item" />
 		<div class="spacer" />
 		<div v-if="!disabled" class="actions">
-			<v-icon v-tooltip="t('edit')" name="launch" clickable @click="editActive = true" />
+			<v-icon v-tooltip="t('edit')" name="open_in_new" clickable @click="editActive = true" />
 			<v-icon v-tooltip="t('deselect')" :name="deleteIcon" class="deselect" clickable @click="$emit('deselect')" />
 		</div>
 

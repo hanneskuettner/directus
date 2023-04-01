@@ -55,7 +55,7 @@
 						{{ t('use_custom') }}
 					</v-list-item-content>
 					<v-list-item-icon>
-						<v-icon name="launch" />
+						<v-icon name="open_in_new" />
 					</v-list-item-icon>
 				</v-list-item>
 			</v-list>
