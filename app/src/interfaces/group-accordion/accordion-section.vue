@@ -11,7 +11,7 @@
 					v-if="!active && validationMessage"
 					v-tooltip="validationMessage"
 					class="warning"
-					name="error_outline"
+					name="error"
 					small
 				/>
 			</div>
