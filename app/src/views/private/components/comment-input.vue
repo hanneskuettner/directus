@@ -31,7 +31,7 @@
 					<v-list-item-icon>
 						<v-avatar x-small>
 							<v-image v-if="user.avatar" :src="avatarSource(user.avatar)" />
-							<v-icon v-else name="person_outline" />
+							<v-icon v-else name="person" />
 						</v-avatar>
 					</v-list-item-icon>
 

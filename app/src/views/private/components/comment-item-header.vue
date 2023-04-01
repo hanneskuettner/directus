@@ -2,7 +2,7 @@
 	<div class="comment-header">
 		<v-avatar x-small>
 			<v-image v-if="avatarSource" :src="avatarSource" :alt="userName(activity.user)" />
-			<v-icon v-else name="person_outline" />
+			<v-icon v-else name="person" />
 		</v-avatar>
 
 		<div class="name">
