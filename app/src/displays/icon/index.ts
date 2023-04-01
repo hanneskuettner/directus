@@ -5,7 +5,7 @@ export default defineDisplay({
 	id: 'icon',
 	name: '$t:displays.icon.icon',
 	description: '$t:displays.icon.description',
-	icon: 'insert_emoticon',
+	icon: 'mood',
 	component: DisplayIcon,
 	options: [
 		{

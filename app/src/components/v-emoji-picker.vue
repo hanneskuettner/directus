@@ -1,6 +1,6 @@
 <template>
 	<v-button class="emoji-button" x-small secondary icon @click="emojiPicker.togglePicker($event.target as HTMLElement)">
-		<v-icon name="insert_emoticon" />
+		<v-icon name="mood" />
 	</v-button>
 </template>
 

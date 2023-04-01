@@ -6,7 +6,7 @@ export default defineInterface({
 	id: 'select-icon',
 	name: '$t:interfaces.select-icon.icon',
 	description: '$t:interfaces.select-icon.description',
-	icon: 'insert_emoticon',
+	icon: 'mood',
 	component: InterfaceSelectIcon,
 	types: ['string'],
 	group: 'selection',
