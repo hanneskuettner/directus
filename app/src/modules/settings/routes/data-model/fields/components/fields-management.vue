@@ -135,7 +135,7 @@ export default defineComponent({
 			},
 			{
 				type: 'm2m',
-				icon: 'import_export',
+				icon: 'swap_vert',
 				text: t('m2m_relationship'),
 			},
 			{

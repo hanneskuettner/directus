@@ -136,7 +136,7 @@ export function generateCollections(updates: StateUpdates, state: State, { getCu
 			collection: junctionCollection,
 			meta: {
 				hidden: true,
-				icon: 'import_export',
+				icon: 'swap_vert',
 			},
 			schema: {
 				name: junctionCollection,
