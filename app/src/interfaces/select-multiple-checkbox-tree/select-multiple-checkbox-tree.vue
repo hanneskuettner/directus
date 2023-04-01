@@ -7,7 +7,7 @@
 				</template>
 
 				<template v-if="search" #append>
-					<v-icon name="clear" clickable @click="search = ''" />
+					<v-icon name="close" clickable @click="search = ''" />
 				</template>
 			</v-input>
 		</div>

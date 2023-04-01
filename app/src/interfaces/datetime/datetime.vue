@@ -12,7 +12,7 @@
 			>
 				<template v-if="!disabled" #append>
 					<v-icon
-						:name="value ? 'clear' : 'today'"
+						:name="value ? 'close' : 'today'"
 						:class="{ active, 'clear-icon': value, 'today-icon': !value }"
 						v-on="{ click: value ? unsetValue : null }"
 					/>

@@ -21,7 +21,7 @@
 				/>
 				<v-icon
 					v-tooltip="!disabled && value && t('interfaces.system-token.remove_token')"
-					:name="!disabled && value ? 'clear' : 'vpn_key'"
+					:name="!disabled && value ? 'close' : 'vpn_key'"
 					:class="{ 'clear-icon': !disabled && !!value, 'default-icon': disabled && value }"
 					:clickable="!disabled && !!value"
 					:disabled="loading || !value"

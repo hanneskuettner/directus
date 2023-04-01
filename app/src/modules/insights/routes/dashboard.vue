@@ -21,7 +21,7 @@
 					outlined
 					@click="cancelChanges"
 				>
-					<v-icon name="clear" />
+					<v-icon name="close" />
 				</v-button>
 
 				<v-button v-tooltip.bottom="t('create_panel')" rounded icon outlined :to="`/insights/${currentDashboard.id}/+`">

@@ -29,7 +29,7 @@
 					outlined
 					@click="attemptCancelChanges"
 				>
-					<v-icon name="clear" />
+					<v-icon name="close" />
 				</v-button>
 
 				<v-button v-tooltip.bottom="t('save')" rounded icon :loading="saving" @click="saveChanges">

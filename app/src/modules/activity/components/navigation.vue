@@ -56,7 +56,7 @@
 			@click="setNavFilter('action', 'delete')"
 		>
 			<v-list-item-icon>
-				<v-icon name="clear" />
+				<v-icon name="close" />
 			</v-list-item-icon>
 			<v-list-item-content>
 				<v-text-overflow :text="t('delete_label')" />
