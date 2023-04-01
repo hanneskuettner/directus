@@ -9,7 +9,7 @@
 		@drop.stop.prevent="onDrop"
 	>
 		<template v-if="dragging">
-			<v-icon class="upload-icon" x-large name="file_upload" />
+			<v-icon class="upload-icon" x-large name="upload" />
 			<p class="type-label">{{ t('drop_to_upload') }}</p>
 		</template>
 
@@ -29,7 +29,7 @@
 			<div class="actions">
 				<v-button v-tooltip="t('click_to_browse')" icon rounded secondary @click="openFileBrowser">
 					<input ref="input" class="browse" type="file" :multiple="multiple" @input="onBrowseSelect" />
-					<v-icon name="file_upload" />
+					<v-icon name="upload" />
 				</v-button>
 				<v-button
 					v-if="fromLibrary"
