@@ -30,7 +30,7 @@
 
 			<template #actions>
 				<v-button v-if="hasPastRevision" v-tooltip.bottom="t('revert')" secondary icon rounded @click="revert">
-					<v-icon name="restore" />
+					<v-icon name="device_reset" />
 				</v-button>
 				<v-button v-tooltip.bottom="t('done')" icon rounded @click="internalActive = false">
 					<v-icon name="check" />
