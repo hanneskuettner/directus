@@ -7,7 +7,7 @@ export default defineDisplay({
 	description: '$t:displays.image.description',
 	types: ['uuid'],
 	localTypes: ['file'],
-	icon: 'insert_photo',
+	icon: 'image',
 	component: DisplayImage,
 	options: [
 		{

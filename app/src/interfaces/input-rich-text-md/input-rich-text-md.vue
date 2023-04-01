@@ -144,7 +144,7 @@
 					icon
 					@click="imageDialogOpen = true"
 				>
-					<v-icon name="insert_photo" />
+					<v-icon name="image" />
 				</v-button>
 
 				<v-button

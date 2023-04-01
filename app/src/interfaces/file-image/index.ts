@@ -6,7 +6,7 @@ export default defineInterface({
 	id: 'file-image',
 	name: '$t:interfaces.file-image.image',
 	description: '$t:interfaces.file-image.description',
-	icon: 'insert_photo',
+	icon: 'image',
 	component: InterfaceFileImage,
 	types: ['uuid'],
 	localTypes: ['file'],
