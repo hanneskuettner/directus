@@ -87,7 +87,7 @@
 						<v-icon
 							v-if="!field.meta"
 							v-tooltip="t('db_only_click_to_configure')"
-							name="report_problem"
+							name="warning"
 							class="unmanaged"
 							small
 						/>
