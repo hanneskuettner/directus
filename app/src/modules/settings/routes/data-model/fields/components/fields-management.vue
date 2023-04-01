@@ -94,7 +94,7 @@ export default defineComponent({
 		const addOptions = computed<Array<{ type: LocalType; icon: string; text: any } | { divider: boolean }>>(() => [
 			{
 				type: 'standard',
-				icon: 'create',
+				icon: 'edit',
 				text: t('standard_field'),
 			},
 			{
