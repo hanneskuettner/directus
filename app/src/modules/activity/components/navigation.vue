@@ -69,7 +69,7 @@
 			@click="setNavFilter('action', 'comment')"
 		>
 			<v-list-item-icon>
-				<v-icon name="chat_bubble_outline" />
+				<v-icon name="chat_bubble" />
 			</v-list-item-icon>
 			<v-list-item-content>
 				<v-text-overflow :text="t('comment')" />

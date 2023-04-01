@@ -1,5 +1,5 @@
 <template>
-	<sidebar-detail :title="t('comments')" icon="chat_bubble_outline" :badge="count || null">
+	<sidebar-detail :title="t('comments')" icon="chat_bubble" :badge="count || null">
 		<comment-input :refresh="refresh" :collection="collection" :primary-key="primaryKey" />
 
 		<v-progress-linear v-if="loading" indeterminate />
