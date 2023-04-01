@@ -23,7 +23,7 @@ fields:
   - field: tags
     interface: tags
     options:
-      iconRight: local_offer
+      iconRight: sell
     special:
       - cast-json
     width: full

@@ -56,7 +56,7 @@ fields:
       - cast-json
     width: full
     options:
-      iconRight: local_offer
+      iconRight: sell
     display: labels
     display_options:
       choices: null

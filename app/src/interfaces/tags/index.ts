@@ -6,7 +6,7 @@ export default defineInterface({
 	id: 'tags',
 	name: '$t:interfaces.tags.tags',
 	description: '$t:interfaces.tags.description',
-	icon: 'local_offer',
+	icon: 'sell',
 	component: InterfaceTags,
 	types: ['json', 'csv'],
 	group: 'standard',

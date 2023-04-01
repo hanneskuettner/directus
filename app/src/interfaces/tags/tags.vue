@@ -83,7 +83,7 @@ export default defineComponent({
 		},
 		iconRight: {
 			type: String,
-			default: 'local_offer',
+			default: 'sell',
 		},
 		presets: {
 			type: Array as PropType<string[]>,
