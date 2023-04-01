@@ -37,7 +37,7 @@ fields:
   - field: location
     interface: input
     options:
-      iconRight: place
+      iconRight: location_on
     width: half
 
   - field: title

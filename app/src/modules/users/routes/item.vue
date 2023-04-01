@@ -129,7 +129,7 @@
 							{{ item.email }}
 						</div>
 						<div v-if="item.location" class="location">
-							<v-icon name="place" small />
+							<v-icon name="location_on" small />
 							{{ item.location }}
 						</div>
 						<v-chip v-if="roleName" :class="item.status" small>{{ roleName }}</v-chip>
