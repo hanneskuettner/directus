@@ -41,7 +41,7 @@
 			clickable
 			@click="$emit('update:modelValue', null)"
 		>
-			<v-list-item-icon><v-icon name="delete_outline" /></v-list-item-icon>
+			<v-list-item-icon><v-icon name="delete" /></v-list-item-icon>
 			<v-list-item-content>{{ t('clear_value') }}</v-list-item-content>
 		</v-list-item>
 	</v-list>
