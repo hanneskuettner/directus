@@ -49,7 +49,7 @@ fields:
   - field: storage_divider
     interface: presentation-divider
     options:
-      icon: insert_drive_file
+      icon: draft
       title: $t:field_options.directus_files.storage_divider
     special:
       - alias

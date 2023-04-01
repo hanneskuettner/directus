@@ -30,7 +30,7 @@ const systemDefaults: Record<string, Partial<Preset>> = {
 		},
 		layout_options: {
 			cards: {
-				icon: 'insert_drive_file',
+				icon: 'draft',
 				title: '{{ title }}',
 				subtitle: '{{ type }} • {{ filesize }}',
 				size: 4,
