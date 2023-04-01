@@ -541,7 +541,7 @@ async function exportDataFiles() {
 			title: t('export_started'),
 			text: t('export_started_copy'),
 			type: 'success',
-			icon: 'file_download',
+			icon: 'download',
 		});
 	} catch (err: any) {
 		unexpectedError(err);

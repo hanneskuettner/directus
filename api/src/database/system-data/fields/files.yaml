@@ -67,7 +67,7 @@ fields:
   - field: filename_download
     interface: input
     options:
-      iconRight: get_app
+      iconRight: download
       placeholder: $t:field_options.directus_files.filename_download
     width: half
 
