@@ -117,7 +117,7 @@ export default defineComponent({
 			},
 			{
 				type: 'files',
-				icon: 'collections',
+				icon: 'filter',
 				text: t('multiple_files'),
 			},
 			{
