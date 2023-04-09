@@ -27,11 +27,11 @@ import api from '@/api';
 import { computed, ref, toRefs, watch } from 'vue';
 import { useI18n } from 'vue-i18n';
 import { get, isEmpty, isNil } from 'lodash';
-import { useRelationM2O } from '@/composables/use-relation-m2o';
-import { getEndpoint } from '@directus/shared/utils';
-import { unexpectedError } from '@/utils/unexpected-error';
-import { usePermissions } from '@/composables/use-permissions';
-import { usePermissionsStore } from '@/stores/permissions';
+import { useRelationM2O } from '@/composables/use-relation-m2o.js';
+import { getEndpoint } from '@directus/utils';
+import { unexpectedError } from '@/utils/unexpected-error.js';
+import { usePermissions } from '@/composables/use-permissions.js';
+import { usePermissionsStore } from '@/stores/permissions.js';
 
 interface Props {
 	value?: string | number | Record<string, any> | null;
